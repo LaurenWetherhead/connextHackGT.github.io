@@ -32,10 +32,14 @@ h2 {
  }
 
 /*
- *	 SPACING
+ *	 Spacing
  */
  .space {
  	padding-bottom: 5rem;
+ }
+
+ .container {
+ 	max-width: 600px;
  }
 
 

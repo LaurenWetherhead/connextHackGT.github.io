@@ -21,6 +21,9 @@ var myChart = new Chart(ctx, {
                   color: "rgba(0, 0, 0, 0)",
                   drawBorder: false,
                   display: false,
+                  ticks: {
+                    display: false
+                  }
                 }
               }],
             xAxes: [{
