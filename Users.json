@@ -5,12 +5,24 @@
         "name" : "Paige McAuliffe",
         "bio": "just keep swimmning",
         "college": "Georgia Tech",
-        "radius": 10,
+        "radius": 20,
         "upcoming meetings": [],
         "impact": [],
         "expertise": ["java", "books", "dogs"],
         "development" : ["public speaking", "hiking", "guitar"],
     },
+    {
+        "username": "nishawty",
+         "password": "password",
+        "name" : "Nishat Firoj",
+        "bio": "let's learn!!",
+        "college": "Georgia Tech",
+        "radius": 10,
+        "upcoming meetings": [],
+        "impact": [],
+        "expertise": ["web development", "ukulele"],
+        "development" : ["public speaking", "hiking", "guitar"],
+    }
 ]
 
 
