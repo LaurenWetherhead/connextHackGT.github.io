@@ -12,18 +12,19 @@
 	<link href="profile.css" rel="stylesheet">
 
 
-<script type = "text/javascript" src="currentUser">
-	loadJSON(function(response) {
-		var actual_JSON = JSON.parse(response);
-		$('#name').append(actual_JSON);
-	}
-   	//$.getJSON('currentUser.json', function(user) {
-       // $('#name').append('<p>' user.name + '</p>');
-     	//});
-
-    //var jcontent = require('currentUser.json'); // file is loaded all at once
-    //var output = document.getElementById('output');
-    //output.innerHTML = jcontent.username;
+<script type = "text/javascript">
+	var currentUser = {"username": "paigemca",
+        "password": "password",
+        "name" : "Paige McAuliffe",
+        "bio": "just keep swimmning",
+        "college": "Georgia Tech",
+        "radius": 10,
+        "upcoming meetings": [],
+        "impact": [],
+        "expertise": ["java", "books", "dogs"],
+        "development" : ["public speaking", "hiking", "guitar"}
+    var name = document.getElementById("name");
+    name.innerHTML = currentUser.name;
 </script>
 
 </head>
@@ -49,17 +50,18 @@
 				</div>
 				<!-- END SIDEBAR USERPIC -->
 				<!-- SIDEBAR USER TITLE -->
-				<div id="name"></div>
+				<div id="container">
+					Paige McAuliffe
+				</div>
 				<div class="profile-usertitle">
-
 					<div class="profile-usertitle-bio">
-						{BIO HERE}
+						Here To Learn
 					</div>
 					<div class="profile-usertitle-college">
-						{COLLEGE HERE}
+						Georgia Tech
 					</div>
 					<div class="profile-usertitle-radius">
-						{RADIUS HERE}
+						20 miles
 					</div>
 				</div>
 				<!-- END SIDEBAR USER TITLE -->
