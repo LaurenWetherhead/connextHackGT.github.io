@@ -13,6 +13,13 @@
 
 	<title>Connext</title>
 
+	<script type="text/javascript">
+		$.getJSON("currentUser.json", function(data){
+			$('#stage').html('<p> Name: ' + data.name + '</p>');
+            $('#stage').append('<p>Age : ' + data.age+ '</p>');
+
+	</script>
+
 </head>
 <body>
 
