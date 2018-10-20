@@ -14,31 +14,40 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 
-	<!-- Our own CSS file link up -->
+	<!-- Our own CSS/JS file link up -->
 	<link href="index.css" rel="stylesheet">
+	<script type="text/javascript" src="magical.js"></script>
+
+	<title>Connext</title>
 
 </head>
 <body>
-
+	
 	<!-- set up menu bar -->
 	<nav class="navbar navbar-form navbar-fixed-top" style="margin-bottom: 3rem; text-align: center;">
-	  <div class="container">
-	  	<a class="nav-link" href="index.html">home</a>
-            <a class="nav-link" href="profile.html">profile</a>
-            <a class="nav-link" href="message.html">message</a>
-            <a class="nav-link" href="discover.html">discover</a>
-	  </div>
+		<div class="container-fluid">
+			<a class="nav-link" href="index.html">home</a>
+			<a class="nav-link" href="profile.html">profile</a>
+			<a class="nav-link" href="message.html">message</a>
+			<a class="nav-link" href="discover.html">discover</a>
+		</div>
 	</nav>
 
-	<!-- Title -->
-	<h2>no one does anything great alone</h2>
+	<div class="container">
+		<!-- Title -->
+		<h2>no one does anything <span class="underline--magical">great</span> alone</h2>
 
-	<canvas id="myChart" width="400" height="400"></canvas>
-	<script type="text/javascript" src = "datavis.js"> </script>
-	<footer>
-		<h1>connext</h1> 
-	</footer>
-	
+		<div class="space"></div>
+
+		<div class="container-center">
+			<canvas id="myChart" width="400" height="400"></canvas>
+		</div>
+		<script type="text/javascript" src = "datavis.js"> </script>
+		<!-- <footer>
+			<h1>connext</h1> 
+		</footer> -->
+	</div>
+	<div class="space"></div>
 
 
 

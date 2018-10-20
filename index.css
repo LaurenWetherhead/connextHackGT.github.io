@@ -32,6 +32,18 @@ h2 {
  }
 
 /*
+ *	 Spacing
+ */
+ .space {
+ 	padding-bottom: 5rem;
+ }
+
+ .container {
+ 	max-width: 600px;
+ }
+
+
+/*
  * Header Navigation Setup
  */
 
@@ -51,42 +63,7 @@ h2 {
  }
 
  /*
-  * Data Vis
+  * Extra pretty stuff
   */
 
-#sunburst-breadcrumbs {
-  width: 600px;
-  height: 70px;
-}
 
-#sunburst-legend {
-  padding: 10px 0 0 3px;
-}
-
-#sunburst-breadcrumbs text,
-#sunburst-legend text {
-  font-weight: 600;
-  fill: #fff;
-}
-
-#sunburst-chart {
-  left: 50%;
-  position: absolute;
-  margin-left: -375px;
-}
-
-#sunburst-chart path {
-  stroke: #fff;
-}
-
-#sunburst-description {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200px;
-  text-align: center;
-  font-size: 2.5em;
-  margin-left: -100px;
-  margin-top: -1.25em;
-  line-height: 2.5em;
-}
