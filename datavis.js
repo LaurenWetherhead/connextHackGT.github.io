@@ -19,11 +19,15 @@ var myChart = new Chart(ctx, {
             yAxes: [{
                 gridLines: {
                   color: "rgba(0, 0, 0, 0)",
+                  drawBorder: false,
+                  display: false,
                 }
               }],
             xAxes: [{
                 gridLines: {
                   color: "rgba(0, 0, 0, 0)",
+                  drawBorder: false,
+                  display: false,
                 }
             }]
         }
