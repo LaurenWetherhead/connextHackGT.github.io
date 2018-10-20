@@ -1,6 +1,6 @@
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
-    type: 'bubble',
+    type: 'doughnut',
     data: {
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
         datasets: [{
@@ -31,8 +31,15 @@ var myChart = new Chart(ctx, {
                 ticks: {
                     beginAtZero:true
                 }
-            }]
+                // gridLines: {
+                //   color: "rgba(0, 0, 0, 0)",
+                // }
+              }],
+            // xAxes: [{
+            //     gridLines: {
+            //       color: "rgba(0, 0, 0, 0)",
+            //     }
+            // }]
         }
-        
     }
 });
