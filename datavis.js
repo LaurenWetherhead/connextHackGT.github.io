@@ -22,7 +22,7 @@ var myChart = new Chart(ctx, {
                   drawBorder: false,
                   display: false,
                   ticks: {
-                    display: false
+                    fontColor: "rgba(0, 0, 0, 0)",
                   }
                 }
               }],
