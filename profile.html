@@ -11,8 +11,8 @@
 	<!-- Our own CSS file link up -->
 	<link href="profile.css" rel="stylesheet">
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 
+<<<<<<< HEAD
 <script>
 
     $(function() {
@@ -26,6 +26,20 @@
      	});
 
    	});
+=======
+<script type = "text/javascript" src="currentUser">
+	loadJSON(function(response) {
+		var actual_JSON = JSON.parse(response);
+		$('#name').append(actual_JSON);
+	}
+   	//$.getJSON('currentUser.json', function(user) {
+       // $('#name').append('<p>' user.name + '</p>');
+     	//});
+
+    //var jcontent = require('currentUser.json'); // file is loaded all at once
+    //var output = document.getElementById('output');
+    //output.innerHTML = jcontent.username;
+>>>>>>> 387b94f10c1f59996a2aca2508f1514aba095fda
 </script>
 
 </head>
@@ -51,9 +65,9 @@
 				</div>
 				<!-- END SIDEBAR USERPIC -->
 				<!-- SIDEBAR USER TITLE -->
+				<div id="name"></div>
 				<div class="profile-usertitle">
-					<string id= "name" border= "2">
-					</div>
+
 					<div class="profile-usertitle-bio">
 						{BIO HERE}
 					</div>
