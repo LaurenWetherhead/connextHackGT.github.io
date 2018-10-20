@@ -17,31 +17,7 @@ var myChart = new Chart(ctx, {
   options: {
     legend: {
       display: true,
-      position: 'bottom'
-    },
-    scales: {
-      yAxes: [{
-        gridLines: {
-          color: "rgba(0, 0, 0, 0)",
-          drawBorder: false,
-          weight: 0,
-          display: false,
-          ticks: {
-            display: false
-          }
-        }
-      }],
-      xAxes: [{
-        gridLines: {
-          color: "rgba(0, 0, 0, 0)",
-          drawBorder: false,
-          display: false,
-          weight: 0,
-          ticks: {
-            display: false
-          }
-        }
-      }]
+      position: 'top'
     }
   }
 });
