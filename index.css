@@ -1,0 +1,42 @@
+h1 {
+	color: #161616;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 100px;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+ 	height: 100%;
+ 	background-color: #ffffff;
+ }
+
+ body {
+ 	padding-bottom: 3rem;
+ 	color: #ECECEC;
+ }
+
+/*
+ * Header Navigation Setup
+ */
+
+ .nav-link {
+ 	font-family: "Open Sans", sans-serif;
+ 	text-align: center;
+ 	padding: 0 5rem 0 5rem;
+ 	align-content: center;
+ 	font-weight: 400;
+ 	color: #F78888;
+ 	background-color: white;
+ 	border-bottom: .25rem solid transparent;
+ }
+
+ .nav-link + .nav-link {
+ 	margin-left: 1rem;
+ }
