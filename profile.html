@@ -11,6 +11,23 @@
 	<!-- Our own CSS file link up -->
 	<link href="profile.css" rel="stylesheet">
 
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+<script>
+
+    $(function() {
+
+
+   	var people = [];
+
+   	$.getJSON('currentUser.json', function(data) {
+          var firstName = data.name
+           $(firstName).appendTo("#name");
+     	});
+
+   	});
+</script>
+
 </head>
 <body>
 
@@ -35,8 +52,7 @@
 				<!-- END SIDEBAR USERPIC -->
 				<!-- SIDEBAR USER TITLE -->
 				<div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						{NAME HERE}
+					<string id= "name" border= "2">
 					</div>
 					<div class="profile-usertitle-bio">
 						{BIO HERE}
@@ -64,7 +80,6 @@
             <div class="profile-interests">
 			   areas for development
             </div>
-
 		</div>
 	</div>
 </div>
