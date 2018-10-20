@@ -11,27 +11,29 @@
 	<!-- Our own CSS file link up -->
 	<link href="profile.css" rel="stylesheet">
 
-	<script type = "text/javascript">
-		var currentUser = {"username": "paigemca",
-		"password": "password",
-		"name" : "Paige McAuliffe",
-		"bio": "just keep swimmning",
-		"college": "Georgia Tech",
-		"radius": 10,
-		"upcoming meetings": [],
-		"impact": [],
-		"expertise": ["java", "books", "dogs"],
-		"development" : ["public speaking", "hiking", "guitar"}
-		var name = document.getElementById("name");
-		name.innerHTML = currentUser.name;
 
-	</script>
 
-	<script type = "text/javascript" src="currentUser">
-		loadJSON(function(response) {
-			var actual_JSON = JSON.parse(response);
-			$('#name').append(actual_JSON);
-		}
+<script type = "text/javascript">
+	var currentUser = {"username": "paigemca",
+        "password": "password",
+        "name" : "Paige McAuliffe",
+        "bio": "just keep swimmning",
+        "college": "Georgia Tech",
+        "radius": 10,
+        "upcoming meetings": [],
+        "impact": [],
+        "expertise": ["java", "books", "dogs"],
+        "development" : ["public speaking", "hiking", "guitar"}
+    var name = document.getElementById("name");
+    name.innerHTML = currentUser.name;
+
+</script>
+
+<script type = "text/javascript" src="currentUser">
+	loadJSON(function(response) {
+		var actual_JSON = JSON.parse(response);
+		$('#name').append(actual_JSON);
+	}
    	//$.getJSON('currentUser.json', function(user) {
        // $('#name').append('<p>' user.name + '</p>');
      	//});
@@ -47,80 +49,59 @@
 
 	<!-- set up menu bar -->
 	<nav class="navbar navbar-form navbar-fixed-top" style="margin-bottom: 3rem; text-align: center;">
-		<div class="container">
-			<a class="nav-link" href="index.html">home</a>
-			<a class="nav-link" href="profile.html">profile</a>
-			<a class="nav-link" href="message.html">message</a>
-			<a class="nav-link" href="discover.html">discover</a>
-		</div>
+	  <div class="container">
+	  	<a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="profile.html">profile</a>
+            <a class="nav-link" href="message.html">message</a>
+            <a class="nav-link" href="discover.html">discover</a>
+	  </div>
 	</nav>
 
 	<div class="container">
-		<div class="row profile">
-			<div class="col-md-3">
-				<div class="profile-sidebar">
-					<!-- SIDEBAR USERPIC -->
-					<div class="profile-userpic">
-						<img src="genericprofilepic.jpg" class="img-responsive" alt="">
-					</div>
-					<!-- END SIDEBAR USERPIC -->
-					<!-- SIDEBAR USER TITLE -->
-					<div id="container">
-						Paige McAuliffe
-					</div>
-					<div class="profile-usertitle">
-						<div class="profile-usertitle-bio">
-							Here To Learn
-						</div>
-						<div class="profile-usertitle-college">
-							Georgia Tech
-						</div>
-						<div class="profile-usertitle-radius">
-							20 miles
-						</div>
-					</div>
-					<!-- END SIDEBAR USER TITLE -->
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img src="genericprofilepic.jpg" class="img-responsive" alt="">
 				</div>
-			</div>
-
-			<div class="col-md-8">
-					<div class="profileRow">
-						<a href="javascript:void(0)" onclick="document.getElementById('meetings').style.display='block';document.getElementById('fade').style.display='block'"><h2>upcoming meetings</h2></a>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div id="container">
+					Paige McAuliffe
+				</div>
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-bio">
+						Here To Learn
 					</div>
-					<div class="smallSpace"></div>
-					<div class="profileRow">
-						<a href="javascript:void(0)" onclick="document.getElementById('impact').style.display='block';document.getElementById('fade').style.display='block'"><h2>my impact</h2></a>
+					<div class="profile-usertitle-college">
+						Georgia Tech
 					</div>
-					<div class="smallSpace"></div>
-					<div class="profileRow">
-						<a href="javascript:void(0)" onclick="document.getElementById('expertise').style.display='block';document.getElementById('fade').style.display='block'"><h2>areas of expertise</h2></a>
+					<div class="profile-usertitle-radius">
+						20 miles
 					</div>
-					<div class="smallSpace"></div>
-					<div class="profileRow">
-						<a href="javascript:void(0)" onclick="document.getElementById('development').style.display='block';document.getElementById('fade').style.display='block'"><h2>areas for development</h2></a>
-					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
 			</div>
 		</div>
+		<div class="personal-info-rows">
+            <div class="profile-upcoming-meetings">
+			   upcoming meetings
+            </div>
+            <div class="profile-content">
+			   my impact
+            </div>
+            <div class="profile-expertise">
+			   areas of expertise
+            </div>
+            <div class="profile-interests">
+			   areas for development
+            </div>
+		</div>
 	</div>
-
-<!-- 	<p>This is the main content. To display a lightbox click <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a>
-  </p> -->
-
-  	<!-- LIGHT BOXES -->
-	  <div id="meetings" class="white_content"><h3>Who are you seeing soon?</h3><div class="smallSpace"></div><p>You have ONE meeting with CARSON this upcoming TUESDAY!</p> <a href="javascript:void(0)" onclick="document.getElementById('meetings').style.display='none';document.getElementById('fade').style.display='none'"><div class="space"></div><p style="text-align: right">Close</p></a>
-	  </div>
-
-	  <div id="impact" class="white_content"><h3>What have you accomplished?</h3><div class="smallSpace"></div><p>You have had THREE meetings with focuses in CODING, COOKING, and GUITAR!</p> <a href="javascript:void(0)" onclick="document.getElementById('impact').style.display='none';document.getElementById('fade').style.display='none'"><div class="space"></div><p style="text-align: right">Close</p></a>
-	  </div>
-
-	  <div id="expertise" class="white_content"><h3>What could you teach?</h3><div class="smallSpace"></div><p>You want to teach LINEAR ALGEBRA and MODERN PHYSICS!</p> <a href="javascript:void(0)" onclick="document.getElementById('expertise').style.display='none';document.getElementById('fade').style.display='none'"><div class="space"></div><p style="text-align: right">Close</p></a>
-	  </div>
-
-	  <div id="development" class="white_content"><h3>What have you accomplished?</h3><div class="smallSpace"></div><p>You have had THREE meetings with focuses in CODING, !</p> <a href="javascript:void(0)" onclick="document.getElementById('development').style.display='none';document.getElementById('fade').style.display='none'"><div class="space"></div><p style="text-align: right">Close</p></a>
-	  </div>
-
-	<br>
-	<br>
+</div>
+<br>
+<br>
 
 
 
