@@ -46,7 +46,7 @@ h1 {
 .profile {
     padding: 20px 0 40px 0;
   margin: 30px 0;
-  color: #fff;
+  color: #ECECEC;
   text-align: center
 }
 
@@ -54,7 +54,11 @@ h1 {
 .profile-sidebar {
   padding: 40px 0 40px 0;
   background: #F78888;;
-
+}
+.personal-info-rows {
+    font-size: 15px;
+    color: #5DA2D5;
+    text-align: left;
 }
 
 .profile-userpic img {
