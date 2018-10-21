@@ -1,0 +1,150 @@
+/*BASICS*/
+
+h1 {
+    color: #161616;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+h2 {
+    color: #161616;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+    height: 100%;
+    background-color: #ECECEC;
+    font-family: 'Titillium Web', sans-serif;
+ }
+
+ body {
+  padding-top: 3rem;
+    background-color: #ECECEC;
+ }
+
+/*
+ *   Spacing
+ */
+ .space {
+    padding-bottom: 5rem;
+ }
+
+
+/*
+ * Header Navigation Setup
+ */
+
+ .nav-link {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 0 5rem 0 5rem;
+    align-content: center;
+    font-weight: 400;
+    color: #161616;
+    background-color: #ECECEC;
+    border-bottom: .25rem solid transparent;
+ }
+
+ .nav-link + .nav-link {
+    margin-left: 1rem;
+ }
+
+ /*
+  * Extra pretty stuff
+  */
+  .magical--underline {
+    background-image: linear-gradient(45deg, #F2899A 0%, #FFA990 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.1em;
+    background-position: 0 95%;
+    transition: background-size 0.25s linear, color 0.2s linear;
+    text-decoration: none;
+    padding: 2px;
+  }
+  .magical--underline:hover {
+    color: #fff;
+    background-size: 100% 95%;
+  }
+
+ /*
+  * buttons
+  */
+
+  .btn-outline-dark {
+    text-align: center;
+    color: #465C8B;
+    background-color: #ECECEC;
+
+    background-image:none;
+    /*border-color: #465C8B;*/
+  }
+  .btn-outline-dark:hover {
+    color: #fff;
+    background-color: #ECECEC;
+
+    border-color: #465C8B;
+  }
+
+.darker {
+    border-color: #E0BDB2;
+    background-color: #E0BDB2;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom: 1rem;
+}
+
+.container img {
+    float: left;
+    padding-top: 2rem;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.borderstuff {
+    border-color: 
+}
+
+textarea {
+    padding-top: 2rem;
+    width: 80%;
+    margin-left: 0;
+
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #efefef;
+}
+
+.texting {
+    padding-top: 1rem;
+}
