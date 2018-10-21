@@ -18,6 +18,13 @@ h2 {
   text-align: center;
 }
 
+h4 {
+  font-family: 'Exo 2', sans-serif; 
+  font-weight: 700; 
+  font-style: italic; 
+  font-size: 60px;
+}
+
 h5 {
   color: #161616;
   font-family: 'Titillium Web', sans-serif;
