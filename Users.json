@@ -22,6 +22,18 @@
         "impact": [],
         "expertise": ["web development", "ukulele"],
         "development" : ["public speaking", "hiking", "guitar"],
+    },
+    {
+        "username": "loho",
+         "password": "password",
+        "name" : "Lauren Wetherhead",
+        "bio": "coding is hard",
+        "college": "Georgia State",
+        "radius": 25,
+        "upcoming meetings": [],
+        "impact": [],
+        "expertise": ["rock climbing", "being the best", "shenanigans"],
+        "development" : ["web development"],
     }
 ]
 

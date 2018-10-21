@@ -14,20 +14,7 @@ h2 {
   padding-bottom: 2rem;
   text-align: center;
 }
-.magical--underline {
-  cursor: pointer;
-  background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.1em;
-  background-position: 0 95%;
-  transition: background-size 0.25s linear, color 0.2s linear;
-  text-decoration: none;
-  padding: 2px;
-}
-.magical--underline:hover {
-  color: #fff;
-  background-size: 100% 95%;
-}
+
 /*
  * Base structure
  */
@@ -44,11 +31,61 @@ body {
 /*
  *	 Spacing
  */
-.space {
+.space-bottom {
   padding-bottom: 5rem;
 }
+.space {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .container {
-  max-width: 600px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.btn-outline-primary {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  color: #465C8B;
+  background-color:transparent;
+  background-image:none;
+  border-color: #465C8B;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #465C8B;
+  border-color: #465C8B;
+}
+
+.btn-outline-secondary {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  color: #712c69;
+  background-color:transparent;
+  background-image:none;
+  border-color: #712c69;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #712c69;
+  border-color: #712c69;
+}
+
+.btn-outline-tertiary {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  color: #712c69;
+  background-color:transparent;
+  background-image:none;
+  border-color: #712c69;
+}
+.btn-outline-tertiary:hover {
+  color: #fff;
+  background-color: #712c69;
+  border-color: #712c69;
 }
 /*
  * Header Navigation Setup
@@ -67,3 +104,25 @@ body {
   margin-left: 1rem;
 }
 /* Extra pretty stuff*/
+.magical--underline {
+  background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 95%;
+  transition: background-size 0.25s linear, color 0.2s linear;
+  text-decoration: none;
+  padding: 2px;
+}
+.magical--underline:hover {
+  color: #fff;
+  background-size: 100% 95%;
+}
+
+#wrapper {
+  background-color: transparent;/* for visualization purposes */
+  text-align: center;
+}
+#buttons {
+  background-color: transparent; /* for visualization purposes */
+  display: inline-block;
+}
