@@ -1,3 +1,5 @@
+/*BASICS*/
+
 h1 {
 	color: #161616;
 	font-family: 'Titillium Web', sans-serif;
@@ -8,7 +10,7 @@ h1 {
 }
 
 h2 {
-	color: #F78888;
+	color: #465c8b;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 35px;
 	padding-top: 10rem;
@@ -28,7 +30,7 @@ h2 {
 
  body {
  	padding-bottom: 3rem;
- 	color: #ECECEC;
+ 	color: #161616;
  }
 
 /*
@@ -66,8 +68,7 @@ h2 {
   * Extra pretty stuff
   */
 .magical--underline {
-  cursor: pointer;
-  background-image: linear-gradient(45deg, #225e9e 0%, #712c69 100%);
+  background-image: linear-gradient(45deg, #f7ef6a 0%, #93c178 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.1em;
   background-position: 0 95%;
@@ -80,4 +81,20 @@ h2 {
   background-size: 100% 95%;
 }
 
+ /*
+  * buttons
+  */
+
+.btn-outline-dark {
+  text-align: center;
+  color: #465C8B;
+  background-color:transparent;
+  background-image:none;
+  /*border-color: #465C8B;*/
+}
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #465C8B;
+  border-color: #465C8B;
+}
 
