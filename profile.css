@@ -16,7 +16,7 @@ h2 {
 h3 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 45px;
-  color: #F78888;
+  color: #465C8B;
   text-align: center;
 }
 
@@ -35,10 +35,13 @@ p {
  html,
  body {
   height: 100%;
-  background-color: #ffffff;
+  background-color: #ECECEC;
+
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #ECECEC;
 }
@@ -54,7 +57,7 @@ body {
   align-content: center;
   font-weight: 400;
   color: #161616;
-  background-color: white;
+  background-color: #ECECEC;
   border-bottom: .25rem solid transparent;
 }
 
@@ -67,14 +70,14 @@ body {
 .profile {
   padding: 20px 0 40px 0;
   margin: 30px 0;
-  color: #ECECEC;
+  color: #465c8b;
   text-align: center;
 }
 
 /* Profile sidebar */
 .profile-sidebar {
   padding: 40px 0 40px 0;
-  background: #F78888;;
+  background: rgba(255, 215, 134, .7);
 }
 .personal-info-rows {
   font-size: 15px;
@@ -98,7 +101,7 @@ body {
 .profileRow {
   padding: 5rem;
   /*border: 1px solid rgb(243,210,80);*/
-  background-color: rgb(243,210,80);
+  background-color: #93c178;
 }
 
 .smallSpace {
@@ -117,8 +120,8 @@ body {
   width: 50%;
   height: 50%;
   padding: 16px;
-  border: 16px solid rgb(144,204,244);
-  background-color: white;
+  border: 16px solid #465C8B;
+  background-color: #ECECEC;
   z-index: 1002;
   overflow: auto;
   text-decoration: none;

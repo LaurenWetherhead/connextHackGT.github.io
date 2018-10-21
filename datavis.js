@@ -2,46 +2,22 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Java", "C", "MATLAB", "HTML/CSS", "JavaScript"],
+    labels: ["STEM", "Arts & Humanities", "Miscellaneous", "Communications", "Hobbies"],
     datasets: [{
       data: [19, 10, 5, 19, 10],
       backgroundColor: [
-      'rgba(255, 99, 132, 1)',
-      'rgba(54, 162, 235, 1)',
-      'rgba(255, 206, 86, 1)',
-      'rgba(75, 192, 192, 1)',
-      'rgba(255, 159, 64, 1)'
+      'rgba(107, 160, 75, 1)',
+      'rgba(57, 122, 101, 1)',
+      'rgba(232, 245, 186, 1)',
+      'rgba(102, 168, 143, 1)',
+      'rgba(177, 232, 144, 1)'
       ]
     }]
   },
   options: {
     legend: {
       display: true,
-      position: 'bottom'
-    },
-    scales: {
-      yAxes: [{
-        gridLines: {
-          color: "rgba(0, 0, 0, 0)",
-          drawBorder: false,
-          weight: 0,
-          display: false,
-          ticks: {
-            display: false
-          }
-        }
-      }],
-      xAxes: [{
-        gridLines: {
-          color: "rgba(0, 0, 0, 0)",
-          drawBorder: false,
-          display: false,
-          weight: 0,
-          ticks: {
-            display: false
-          }
-        }
-      }]
+      position: 'top'
     }
   }
 });
