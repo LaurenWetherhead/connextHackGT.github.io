@@ -28,6 +28,10 @@ h2 {
   color: #fff;
   background-size: 100% 95%;
 }
+
+.col-md-3 {
+  background-color: #DFDCE3
+}
 /*
  * Base structure
  */
@@ -38,13 +42,19 @@ body {
 }
 body {
   padding-bottom: 3rem;
-  color: #ECECEC;
+  color: #465C8B;
+  text-align: center;
 }
 /*
  *	 Spacing
  */
 .space {
   padding-bottom: 5rem;
+}
+
+.sidewaysSpace {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .container {
   max-width: 600px;
@@ -65,4 +75,39 @@ body {
 .nav-link + .nav-link {
   margin-left: 1rem;
 }
-/* Extra pretty stuff*/
+/* profile*/
+/* Profile Sidebar Setup */
+.profile {
+  padding: 20px 0 40px 0;
+  margin: 30px 0;
+  color: #ECECEC;
+  text-align: center;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 40px 0 40px 0;
+  background: #F78888;;
+}
+.personal-info-rows {
+  font-size: 15px;
+  color: #5DA2D5;
+  text-align: left;
+}
+
+.name {
+  color: #000;
+}
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+.profileRow {
+  padding: 5rem;
+  /*border: 1px solid rgb(243,210,80);*/
+  background-color: rgb(243,210,80);
+}
+
