@@ -11,7 +11,7 @@ h2 {
   font-family: 'Titillium Web', sans-serif;
   font-size: 35px;
   padding-top: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ body {
   padding-bottom: 3rem;
   color: #ECECEC;
   background-color: #ECECEC;
-  
+
 }
 /*
  *   Spacing
@@ -40,66 +40,125 @@ body {
   padding-right: 2rem;
 }
 .container {
-  max-width: 500px;
+  width: 500px;
   margin: auto;
 }
 
-.card-img-top {
-  max-height: 200px;
-  max-width: 200px;
-}
-.card {
-  background-color: #93C178
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 35px;
 }
 
-.sidewaysSpace {
+.card {
+  height: 350px;
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: #93C178;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+
+  transition: box-shadow .3s ease;
+}
+.card:hover {
+  /* border: 1px solid #777; */
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 12px;
+  float: top;
+  object-fit: cover;
+}
+
+.responsive {
+  /* padding: 0 6px;
+  float: left;
+  width: 24.99999%; */
+  padding: 30px;
+}
+
+/* @media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+} */
+
+/* .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+
+/*.sidewaysSpace {
   padding-right: 3rem;
   padding-left: 3rem;
-}
+}*/
 
 .btn-outline-primary {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
   text-align: center;
   color: #465C8B;
   background-color:transparent;
   background-image:none;
   border-color: #465C8B;
+  font-size: 17px;
 }
 .btn-outline-primary:hover {
   color: #fff;
   background-color: #465C8B;
   border-color: #465C8B;
+  box-shadow: 0 4px px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-outline-secondary {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
   text-align: center;
-  color: #712c69;
+  color: #225e9e;
   background-color:transparent;
   background-image:none;
-  border-color: #712c69;
+  border-color: #225e9e;
+  font-size: 17px;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #712c69;
-  border-color: #712c69;
+  background-image: linear-gradient(to right, #465C8B 0%, #712c69 100%);
+  border-color: #225e9e;
+  box-shadow: 0 4px px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-outline-tertiary {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
   text-align: center;
   color: #712c69;
   background-color:transparent;
   background-image:none;
   border-color: #712c69;
+  font-size: 17px;
 }
 .btn-outline-tertiary:hover {
   color: #fff;
   background-color: #712c69;
   border-color: #712c69;
+  box-shadow: 0 4px px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*
  * Header Navigation Setup
@@ -133,10 +192,8 @@ body {
 }
 
 #wrapper {
-  background-color: transparent;/* for visualization purposes */
   text-align: center;
 }
 #buttons {
-  background-color: transparent; /* for visualization purposes */
   display: inline-block;
 }
