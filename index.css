@@ -117,3 +117,30 @@ body {
 
   border-color: #465C8B;
 }
+
+.lilboi {
+  align: center;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+
+/*#chartdiv {
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  background: transparent url("genericprofilepic.jpg") no-repeat center 70px;
+}*/
