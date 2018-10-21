@@ -2,7 +2,7 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Java", "C", "MATLAB", "HTML/CSS", "JavaScript"],
+    labels: ["STEM", "Arts & Humanities", "Miscellaneous", "Communications", "Hobbies"],
     datasets: [{
       data: [19, 10, 5, 19, 10],
       backgroundColor: [
