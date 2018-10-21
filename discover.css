@@ -26,9 +26,11 @@ body {
 body {
   padding-bottom: 3rem;
   color: #ECECEC;
+  background-color: #ECECEC;
+  
 }
 /*
- *	 Spacing
+ *   Spacing
  */
 .space-bottom {
   padding-bottom: 5rem;
@@ -40,6 +42,19 @@ body {
 .container {
   max-width: 500px;
   margin: auto;
+}
+
+.card-img-top {
+  max-height: 200px;
+  max-width: 200px;
+}
+.card {
+  background-color: #93C178
+}
+
+.sidewaysSpace {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 .btn-outline-primary {
@@ -96,7 +111,7 @@ body {
   align-content: center;
   font-weight: 400;
   color: #161616;
-  background-color: white;
+  background-color: #ECECEC;
   border-bottom: 0.25rem solid transparent;
 }
 .nav-link + .nav-link {
