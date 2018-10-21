@@ -17,7 +17,7 @@ var myChart = new Chart(ctx, {
   options: {
     legend: {
       display: true,
-      position: 'top'
+      position: 'left'
     }
   }
 });
