@@ -1,21 +1,21 @@
 /*BASICS*/
 
 h1 {
-	color: #161616;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 100px;
-	padding-top: 5rem;
-	padding-bottom: 2rem;
-	text-align: center;
+    color: #161616;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 h2 {
-	color: #465c8b;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 35px;
-	padding-top: 10rem;
-	padding-bottom: 2rem;
-	text-align: center;
+    color: #465c8b;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 /*
@@ -24,8 +24,8 @@ h2 {
 
  html,
  body {
- 	height: 100%;
- 	background-color: #ffffff;
+    height: 100%;
+    background-color: #ffffff;
  }
 
  body {
@@ -34,14 +34,14 @@ h2 {
  }
 
 /*
- *	 Spacing
+ *   Spacing
  */
  .space {
- 	padding-bottom: 5rem;
+    padding-bottom: 5rem;
  }
 
  .container {
- 	max-width: 600px;
+    max-width: 600px;
  }
 
 
@@ -61,7 +61,7 @@ h2 {
  }
 
  .nav-link + .nav-link {
- 	margin-left: 1rem;
+    margin-left: 1rem;
  }
 
  /*
@@ -100,3 +100,5 @@ h2 {
   	border-color: #465C8B;
   }
 
+    border-color: #465C8B;
+  }
